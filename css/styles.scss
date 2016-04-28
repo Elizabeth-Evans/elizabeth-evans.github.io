@@ -7,7 +7,13 @@ body{
 	color: rgba(0,0,0,0.8);
 	background-color: rgba(249, 220, 113, 1);
 }
-
+.contact:visited {
+    color: black;
+		text-decoration: none !important;
+}
+.contact:hover{
+	text-decoration: none;
+}
 
 p, h2{
 	font-size: 2em;
@@ -188,8 +194,10 @@ h3{
     // text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
 #section3 a:hover{
-  color: rgba(225, 126, 81, 1);
+  color: purple;
 }
+
+
 #section3 h1{
   color:black;
     text-shadow: -1px 0 white, 0 3px white, 3px 0 white, 0 -1px white;
@@ -203,6 +211,8 @@ h3{
 	font-size: 7rem;
 	font-family: 'Lobster', cursive;
 }
+
+
 .words{
 	position: relative;
 	z-index: 1;
@@ -212,7 +222,9 @@ h3{
 	margin-left: 40%;
 	padding-left: 5%;
 }
-
+.tiny{
+	font-size: 2rem;
+}
 .one img, .two img, .three img{
 	// zoom:100%;
 	// position: relative;
@@ -229,10 +241,10 @@ h3{
 	margin-left: -50%;
 	border:7px double white;
 }
-.intro{
-	color: white;
-  text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
-}
+// .intro{
+// 	color: white;
+//   text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
+// }
 
 
 
@@ -248,10 +260,23 @@ h3{
 }
 .right{
   margin-top: 5%;
-  width:30%;
+  width:50%;
   display: inline-block;
+	text-align: center;
+}
+.right h2{
+		margin-right: 5%;
+		margin-top: 4%;
 }
 
+.right h2:nth-child(3), .right h2:nth-child(4) , .right h2:nth-child(5){
+	display:inline-block;
+}
+.right img{
+	width:4.5rem;
+	height:4.5rem;
+	margin-top: -8%;
+}
 .circleLand{
   display: inline-block;
   width:100%;

@@ -7,6 +7,13 @@ body {
   color: rgba(0, 0, 0, 0.8);
   background-color: #f9dc71; }
 
+.contact:visited {
+  color: black;
+  text-decoration: none !important; }
+
+.contact:hover {
+  text-decoration: none; }
+
 p, h2 {
   font-size: 2em; }
 
@@ -159,7 +166,7 @@ h3 {
   color: black; }
 
 #section3 a:hover {
-  color: #e17e51; }
+  color: purple; }
 
 #section3 h1 {
   color: black;
@@ -182,6 +189,9 @@ h3 {
   margin-left: 40%;
   padding-left: 5%; }
 
+.tiny {
+  font-size: 2rem; }
+
 .one img, .two img, .three img {
   width: 450px;
   height: 450px;
@@ -195,10 +205,6 @@ h3 {
   margin-left: -50%;
   border: 7px double white; }
 
-.intro {
-  color: white;
-  text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black; }
-
 .slide {
   margin-top: 1%; }
 
@@ -209,8 +215,21 @@ h3 {
 
 .right {
   margin-top: 5%;
-  width: 30%;
+  width: 50%;
+  display: inline-block;
+  text-align: center; }
+
+.right h2 {
+  margin-right: 5%;
+  margin-top: 4%; }
+
+.right h2:nth-child(3), .right h2:nth-child(4), .right h2:nth-child(5) {
   display: inline-block; }
+
+.right img {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-top: -8%; }
 
 .circleLand {
   display: inline-block;
