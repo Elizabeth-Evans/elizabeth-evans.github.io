@@ -2,6 +2,9 @@
   outline: none !important; }
 
 body {
+  cursor: url("lightSaber2.png"), auto; }
+
+body {
   font-family: 'Fjalla One', sans-serif;
   color: #333;
   color: rgba(0, 0, 0, 0.8);
