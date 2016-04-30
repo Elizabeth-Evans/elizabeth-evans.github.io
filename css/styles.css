@@ -434,6 +434,8 @@ h3 {
     width: 100%; }
   .left h1 {
     font-size: 16rem; }
+  .right {
+    margin-right: 5%; }
   .right h2 {
     font-size: 8rem; }
   .right img {
