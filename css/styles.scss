@@ -428,9 +428,9 @@ h3{
 		width:65rem;
 		height:65rem;
 		border-radius: 35rem;
-		-ms-transform: rotate(-10deg); /* IE 9 */
-		-webkit-transform: rotate(-10deg); /* Safari */
-		transform: rotate(-10deg);
+		-ms-transform: rotate(0deg); /* IE 9 */
+		-webkit-transform: rotate(0deg); /* Safari */
+		transform: rotate(0deg);
 		z-index: 4;
 	}
 	.left , .right{
@@ -444,9 +444,9 @@ h3{
 	.right h2{
 		font-size: 8rem;
 	}
-	.right{
-		margin-right:5%;
-	}
+	// .right{
+	// 	margin-right:5%;
+	// }
 	.right img{
 		width:9rem;
 		height:9rem;
@@ -542,9 +542,9 @@ h3{
 		 width:65rem;
 		 height:65rem;
 		 border-radius: 35rem;
-		 -ms-transform: rotate(-10deg); /* IE 9 */
-		 -webkit-transform: rotate(-10deg); /* Safari */
-		 transform: rotate(-10deg);
+		 -ms-transform: rotate(0deg); /* IE 9 */
+		 -webkit-transform: rotate(0deg); /* Safari */
+		 transform: rotate(0deg);
 		 z-index: 4;
 
 	 }
@@ -556,9 +556,9 @@ h3{
 	 .left h1{
 		 font-size: 16rem;
 	 }
-	 .right{
-		 margin-right:10%;
-	 }
+	//  .right{
+	// 	 margin-right:10%;
+	//  }
 	 .right h2{
 		 font-size: 8rem;
 	 }
