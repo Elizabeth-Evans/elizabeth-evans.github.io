@@ -394,11 +394,11 @@ h3 {
     padding-left: 4%; }
   .heyP, .heyP2 {
     font-size: 4rem;
-    margin-left: 0%;
-    width: 100%; }
+    margin-left: 2%;
+    width: 97%; }
   .heyP {
     padding-right: 8%;
-    margin-left: -1%; }
+    margin-left: 0%; }
   .words, .gitBig {
     display: block;
     text-align: center; }
