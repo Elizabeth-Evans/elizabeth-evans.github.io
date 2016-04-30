@@ -376,8 +376,8 @@ h3 {
   .face {
     margin: 0 auto;
     text-align: center;
-    width: 70rem;
-    height: 70rem;
+    width: 50rem;
+    height: 50rem;
     border-radius: 50rem;
     margin-left: -7%; }
   #section1 h1, #section p {
@@ -407,7 +407,7 @@ h3 {
   .words p {
     font-size: 6rem; }
   .gitBig {
-    margin-top: 10%;
+    margin-top: 1%;
     margin-left: 20%;
     width: 65rem;
     height: 65rem;
