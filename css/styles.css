@@ -356,3 +356,77 @@ h3 {
     margin: 5%; }
   .circle:first-child {
     margin-left: 10%; } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 526px) and (-webkit-min-device-pixel-ratio: 2) {
+  #menu {
+    display: none; }
+  #section0 h3 {
+    width: 100%;
+    font-size: 12rem; }
+  #section0 h1 {
+    width: 100%;
+    font-size: 25rem; }
+  .name {
+    margin-top: -153%; }
+  #section1 section {
+    display: block;
+    text-align: center;
+    margin: 5%;
+    width: 100%; }
+  .face {
+    margin: 0 auto;
+    text-align: center;
+    width: 70rem;
+    height: 70rem;
+    border-radius: 50rem;
+    margin-left: -7%; }
+  #section1 h1, #section p {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center; }
+  #section1 h1 {
+    font-size: 8rem; }
+  .heyP, .heyP2 {
+    font-size: 4rem;
+    margin-left: 0%;
+    width: 100%; }
+  .heyP {
+    padding-right: 7%; }
+  .words, .gitBig {
+    display: block;
+    text-align: center; }
+  .words {
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 0%; }
+  .git {
+    width: 9rem;
+    height: 9rem; }
+  .words h1 {
+    font-size: 12rem; }
+  .words p {
+    font-size: 6rem; }
+  .gitBig {
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 65rem;
+    height: 65rem;
+    border-radius: 35rem; }
+  .left, .right {
+    display: block;
+    text-align: center;
+    width: 100%; }
+  .left h1 {
+    font-size: 16rem; }
+  .right h2 {
+    font-size: 8rem; }
+  .right img {
+    width: 9rem;
+    height: 9rem;
+    margin-top: -3%; }
+  .circleLand {
+    width: 100%; }
+  .circle {
+    margin: 5%; }
+  .circle:first-child {
+    margin-left: 10%; } }
