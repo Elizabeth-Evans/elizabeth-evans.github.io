@@ -7,11 +7,11 @@ body {
   color: rgba(0, 0, 0, 0.8);
   background-color: #f9dc71; }
 
-.contact:visited {
+.contact:visited, .git:visited {
   color: black;
   text-decoration: none !important; }
 
-.contact:hover {
+.contact:hover, .git:hover {
   text-decoration: none; }
 
 p, h2 {
@@ -190,6 +190,9 @@ h3 {
   color: black; }
 
 #section3 a:hover {
+  color: purple; }
+
+#section2 a:hover {
   color: purple; }
 
 #section3 h1 {
