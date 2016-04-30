@@ -344,7 +344,8 @@ h3 {
     /* IE 9 */
     -webkit-transform: rotate(-10deg);
     /* Safari */
-    transform: rotate(-10deg); }
+    transform: rotate(-10deg);
+    z-index: 4; }
   .left, .right {
     display: block;
     text-align: center;
@@ -427,7 +428,8 @@ h3 {
     /* IE 9 */
     -webkit-transform: rotate(-10deg);
     /* Safari */
-    transform: rotate(-10deg); }
+    transform: rotate(-10deg);
+    z-index: 4; }
   .left, .right {
     display: block;
     text-align: center;
