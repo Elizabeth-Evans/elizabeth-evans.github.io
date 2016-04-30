@@ -295,6 +295,8 @@ h3 {
   #section0 h1 {
     width: 100%;
     font-size: 25rem; }
+  .tiny {
+    display: none; }
   .name {
     margin-top: -153%; }
   #section1 section {
@@ -373,6 +375,8 @@ h3 {
   #section0 h1 {
     width: 100%;
     font-size: 25rem; }
+  .tiny {
+    display: none; }
   .name {
     margin-top: -153%; }
   #section1 section {
