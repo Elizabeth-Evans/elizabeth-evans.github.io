@@ -332,6 +332,8 @@ h3 {
     font-size: 12rem; }
   .words p {
     font-size: 6rem; }
+  #section2 a[href]:after {
+    content: none !important; }
   .gitBig {
     margin-top: 10%;
     margin-left: 20%;
@@ -413,6 +415,8 @@ h3 {
     font-size: 12rem; }
   .words p {
     font-size: 6rem; }
+  #section2 a[href]:after {
+    content: none !important; }
   .gitBig {
     margin-top: 1%;
     margin-left: 18%;
