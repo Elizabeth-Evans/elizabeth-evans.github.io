@@ -317,7 +317,9 @@ h3 {
     margin-left: 0%;
     width: 100%; }
   .heyP {
-    padding-right: 5%; }
+    padding-right: 7%; }
+  .hey2 {
+    margin-left: 5%; }
   .words, .gitBig {
     display: block;
     text-align: center; }
@@ -387,12 +389,14 @@ h3 {
     text-align: center; }
   #section1 h1 {
     font-size: 8rem; }
+  .hey2 {
+    margin-left: 5%; }
   .heyP, .heyP2 {
     font-size: 4rem;
     margin-left: 0%;
     width: 100%; }
   .heyP {
-    padding-right: 5%; }
+    padding-right: 7%; }
   .words, .gitBig {
     display: block;
     text-align: center; }
