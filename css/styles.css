@@ -336,7 +336,8 @@ h3 {
     font-size: 6rem; }
   .git {
     width: 30rem;
-    height: 30rem; }
+    height: 30rem;
+    font-size: 3rem; }
   .gitBig {
     display: none; }
   .left, .right {
@@ -407,7 +408,8 @@ h3 {
     margin-top: 0%; }
   .git {
     width: 9rem;
-    height: 9rem; }
+    height: 9rem;
+    font-size: 3rem; }
   .words h1 {
     font-size: 15rem; }
   .words p {
