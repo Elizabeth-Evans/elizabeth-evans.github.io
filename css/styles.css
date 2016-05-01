@@ -474,3 +474,112 @@ h3 {
   .circle {
     width: 7rem;
     height: 7rem; } }
+
+@media (min-width: 667px) and (max-width: 914px) {
+  #menu {
+    display: none; }
+  .name {
+    margin-top: -60%; }
+  #section0 h1 {
+    font-size: 9rem; }
+  #section0 h3 {
+    font-size: 5rem; }
+  #section1 section {
+    display: block;
+    text-align: center;
+    margin: 5%;
+    width: 100%; }
+  .face {
+    margin: 0 auto;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50rem;
+    margin-left: -7%; }
+  #section1 h1, #section p {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center; }
+  #section1 h1 {
+    font-size: 4rem; }
+  .hey2 {
+    padding-left: 4%; }
+  .heyP, .heyP2 {
+    font-size: 1.8rem;
+    margin-left: 2%;
+    width: 97%; }
+  .heyP {
+    padding-right: 8%;
+    margin-left: 0%; }
+  .gitBig {
+    display: none; }
+  .words {
+    width: 80%;
+    margin-left: 5%; }
+  .words h1 {
+    font-size: 7rem; }
+  .left, .right {
+    width: 90%; }
+  .circleLand {
+    width: 100%; }
+  .circle {
+    width: 5rem;
+    height: 5rem; } }
+
+@media (min-width: 10px) and (max-width: 667px) {
+  #menu {
+    display: none; }
+  .name {
+    margin-top: -80%; }
+  #section0 h1 {
+    font-size: 7rem; }
+  #section0 h3 {
+    font-size: 5rem;
+    margin-bottom: 50%; }
+  #section1 section {
+    display: block;
+    text-align: center;
+    margin: 5%;
+    width: 100%; }
+  .face {
+    margin: 0 auto;
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50rem;
+    margin-left: -7%; }
+  #section1 h1, #section p {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center; }
+  #section1 h1 {
+    font-size: 4rem; }
+  .hey2 {
+    padding-left: 4%; }
+  .heyP, .heyP2 {
+    font-size: 1.8rem;
+    margin-left: 2%;
+    width: 97%; }
+  .heyP {
+    padding-right: 8%;
+    margin-left: 0%; }
+  .gitBig {
+    display: none; }
+  .words {
+    width: 80%;
+    margin-left: 5%; }
+  .words h1 {
+    font-size: 7rem; }
+  .left, .right {
+    width: 100%; }
+  .left h1 {
+    font-size: 7rem; }
+  .circleLand {
+    width: 100%; }
+  .circle {
+    margin: 5%; }
+  .circle:first-child {
+    margin-left: 10%; }
+  .circle {
+    width: 5rem;
+    height: 5rem; } }
