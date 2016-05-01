@@ -143,7 +143,7 @@ h3 {
 .amTwo {
   width: 65%;
   display: inline-block;
-  margin-left: 5%;
+  margin-left: 7%;
   margin-top: 5%; }
 
 .amThree {
@@ -511,6 +511,8 @@ h3 {
   .heyP {
     padding-right: 8%;
     margin-left: 0%; }
+  .tiny {
+    display: none; }
   .gitBig {
     display: none; }
   .words {
@@ -557,12 +559,16 @@ h3 {
   .hey2 {
     padding-left: 4%; }
   .heyP, .heyP2 {
-    font-size: 1.8rem;
     margin-left: 2%;
     width: 97%; }
+  .heyP2 {
+    font-size: 1.3rem; }
   .heyP {
+    font-size: 1.8rem;
     padding-right: 8%;
     margin-left: 0%; }
+  .tiny {
+    display: none; }
   .gitBig {
     display: none; }
   .words {
