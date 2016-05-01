@@ -200,7 +200,9 @@ h3 {
   text-shadow: -1px 0 white, 0 3px white, 3px 0 white, 0 -1px white; }
 
 .git {
-  width: 50px; }
+  width: 50px;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive; }
 
 .portBig {
   font-size: 15rem;
