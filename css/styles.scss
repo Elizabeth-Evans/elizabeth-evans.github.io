@@ -605,3 +605,46 @@ h3{
 		 margin-left: 10%;
 	 }
 }
+
+@media (min-width: 914px) and (max-width: 1250px)  {
+	.name{
+		  margin-top: -50%;
+	}
+
+	.face{
+		width:350px;
+		height:350px;
+		margin-left:-25%;
+	}
+	.hey{
+		font-size: 7rem;
+	}
+	.heyP{
+		font-size: 2rem;
+	}
+	.hey2{
+		margin-top: -9%;
+	}
+
+	.gitBig{
+		width:350px;
+		height:350px;
+		margin-top: -40%;
+		border-radius: 250px;
+	}
+	.words h1{
+		font-size: 7rem;
+	}
+	.circleLand{
+		width:100%;
+	}
+	.circle{
+		width:7rem;
+		height:7rem;
+	}
+
+
+
+
+
+}
