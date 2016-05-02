@@ -49,12 +49,10 @@ h2{
 }
 #menu li.active a:hover{
 	color:#923ea8;
-	// color: rgba(234, 203, 93, 1);
 }
 
 #menu li a:hover{
 	color:#923ea8;
-	// color: rgba(234, 203, 93, 1);
 }
 #menu li a,
 #menu li.active a{
@@ -67,14 +65,11 @@ h2{
 #menu{
 	text-align: right;
   padding-left: 0;
-  // background: rgba(255,50,0,0.5);
   background: rgba(169, 87, 183,0.5);
 	position:fixed;
 	height: 70px;
 	z-index: 10;
 	width: 100%;
-	// padding: 5%;
-	// margin-top:2%;
 }
 
 
@@ -96,10 +91,8 @@ h2{
 	position: relative;
 	background-position: 30% 40%;
 	z-index: -1;
-	// -webkit-filter: grayscale(60%); /* Chrome, Safari, Opera */
-	// filter: grayscale(60%);
-	-webkit-filter: blur(1px) grayscale(30%); /* Chrome, Safari, Opera */
-	filter: blur(1px) grayscale(30%);
+	// -webkit-filter: blur(1px) grayscale(30%); /* Chrome, Safari, Opera */
+	// filter: blur(1px) grayscale(30%);
 }
 
 .name{
@@ -107,7 +100,6 @@ h2{
   letter-spacing: 10px;
   position: relative;
   z-index: 0;
-  // margin-left: 10%;
   margin-top: -30%;
   text-align: center;
   text-shadow: -1px 0 black, 0 6px black, 6px 0 black, 0 -1px black;
@@ -133,7 +125,6 @@ h3{
   z-index: 0;
   letter-spacing: 4px;
   text-shadow: -1px 0 black, 0 6px black, 6px 0 black, 0 -1px black;
-  // margin-left: 10%;
   text-align: center;
   font-family: 'Lobster', cursive;
 	-webkit-animation: left 1500ms ease-out;
@@ -145,8 +136,6 @@ h3{
 #section1{
   background-color: rgba(249, 220, 113, 1);
   display:inline-block;
-  // background-color: rgba(249, 220, 113, 1);
-  // background: linear-gradient(rgba(255,255,255, .5), rgba(249, 220, 113, 1)); /* Standard syntax */
 }
 .face{
   position: relative;
@@ -160,7 +149,6 @@ h3{
   border:	rgba(225, 126, 81, 1) solid 4px;
 }
 #section2{
-  // background-color:rgba(165, 238, 187, 1);
 	background-color: rgba(210, 126, 81, .7);
 }
 #section3{
@@ -219,20 +207,13 @@ h3{
 .heyP2{
 	width:60%;
   margin-left:38%;
-  // margin-top: 5%;
 	text-shadow: -.5px 0 grey, 0 0px grey, 0px 0 grey, 0 -.5px grey;
-			// -webkit-animation: heyGrow 3500ms ease-out;
 	font-size: 2.1rem;
 }
-		// @-webkit-keyframes heyGrow{
-		// 0% {-webkit-transform: scale(.5); }
-		// 100% {	-webkit-transform: scale(.99);}
-		// }
 
 #section3 h2 , a{
   text-decoration:none;
   color:black;
-    // text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
 #section3 a:hover{
   color: purple;
@@ -275,11 +256,6 @@ h3{
 	font-size: 2rem;
 }
 .gitBig{
-	// zoom:100%;
-	// position: relative;
-	// top: -107px;
-	// left: -77px;
-	// overflow: hidden;
 	width:450px;
 	height:450px;
 	margin-top: -30%;
@@ -291,17 +267,7 @@ h3{
 	border:7px double white;
 	margin-right: 5%;
 }
-// .intro{
-// 	color: white;
-//   text-shadow: -1px 0 black, 0 4px black, 4px 0 black, 0 -1px black;
-// }
 
-
-
-
-// .slide{
-// 	margin-top: 1%;
-// }
 .left{
   margin-top: 5%;
   width:30%;
@@ -353,8 +319,6 @@ h3{
 .circle:hover {
   background: purple;
   border-radius: 12px;
-	// width:5rem;
-	// height:5rem;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
   color:white;
@@ -438,7 +402,6 @@ h3{
 
 	.hey2{
 		padding-left: 4%;
-		// margin-left: 10%;
 	}
 	.heyP , .heyP2{
 		font-size: 1.8rem;
@@ -454,10 +417,6 @@ h3{
 	}
 	.gitBig{
 		display: none;
-		// width:350px;
-		// height:350px;
-		// margin-top: -40%;
-		// border-radius: 250px;
 	}
 	.words{
 		width:80%;
@@ -536,10 +495,6 @@ h3{
 	}
 	.gitBig{
 		display: none;
-		// width:350px;
-		// height:350px;
-		// margin-top: -40%;
-		// border-radius: 250px;
 	}
 	.words{
 		width:80%;
@@ -644,9 +599,6 @@ h3{
 	.words p{
 		font-size: 6rem;
 	}
-	// #section2   a[href]:after {
-  //   content: none !important;
-  // }
 	.git{
 		width:30rem;
 		height:30rem;
@@ -654,15 +606,6 @@ h3{
 	}
 	.gitBig{
 		display: none;
-		// margin-top: 10%;
-		// margin-left: 20%;
-		// width:65rem;
-		// height:65rem;
-		// border-radius: 35rem;
-		// -ms-transform: rotate(0deg); /* IE 9 */
-		// -webkit-transform: rotate(0deg); /* Safari */
-		// transform: rotate(0deg);
-		// z-index: 4;
 	}
 	.left , .right{
 		display:block;
@@ -741,7 +684,6 @@ h3{
 		}
 		.hey2{
 			padding-left: 4%;
-			// margin-left: 10%;
 		}
 		.heyP , .heyP2{
 			font-size: 4rem;
@@ -773,24 +715,12 @@ h3{
 	 .words p{
 		 font-size: 6rem;
 	 }
-	//  #section2   a[href]:after {
-	// 		content: none !important;
-	// 	}
 		.git{
 			width:30rem;
 			height:30rem;
 		}
 		.gitBig{
 			display: none;
-		// 	margin-top: 1%;
- 	// 	 margin-left: 18%;
- 	// 	 width:65rem;
- 	// 	 height:65rem;
- 	// 	 border-radius: 35rem;
- 	// 	 -ms-transform: rotate(0deg); /* IE 9 */
- 	// 	 -webkit-transform: rotate(0deg); /* Safari */
- 	// 	 transform: rotate(0deg);
- 	// 	 z-index: 4;
 		}
 
 	 .left , .right{

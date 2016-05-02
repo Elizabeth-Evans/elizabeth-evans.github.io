@@ -79,10 +79,7 @@ h2 {
   overflow: hidden;
   position: relative;
   background-position: 30% 40%;
-  z-index: -1;
-  -webkit-filter: blur(1px) grayscale(30%);
-  /* Chrome, Safari, Opera */
-  filter: blur(1px) grayscale(30%); }
+  z-index: -1; }
 
 .name {
   font-size: 13rem;
