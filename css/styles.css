@@ -717,7 +717,8 @@ h3 {
     width: 97%; }
   .heyP {
     padding-right: 8%;
-    margin-left: 0%;
+    margin-left: 0%; }
+  #section1 p {
     margin-bottom: -5%; }
   .words, .gitBig {
     display: block;
