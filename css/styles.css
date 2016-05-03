@@ -698,7 +698,8 @@ h3 {
     display: block;
     text-align: center;
     margin: 5%;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 0%; }
   .face {
     display: none; }
   #section1 h1, #section p {
@@ -707,8 +708,6 @@ h3 {
     text-align: center; }
   #section1 h1 {
     font-size: 6rem; }
-  .amTwo {
-    margin-bottom: 10%; }
   .hey2 {
     padding-left: 4%; }
   .hey {
@@ -720,8 +719,6 @@ h3 {
   .heyP {
     padding-right: 8%;
     margin-left: 0%; }
-  #section1 p {
-    margin-bottom: -5%; }
   .words, .gitBig {
     display: block;
     text-align: center; }
