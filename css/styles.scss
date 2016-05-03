@@ -528,7 +528,8 @@ h3{
 @media only screen
  and (min-device-width: 375px)
  and (max-device-width: 667px)
- and (-webkit-min-device-pixel-ratio: 2) {
+ and (-webkit-min-device-pixel-ratio: 2)
+ and (orientation: portrait) {
 	 #menu{
 		 display: none;
 	 }
@@ -645,111 +646,129 @@ h3{
   and (orientation: landscape) {
 
 		#menu{
- 		 display: none;
- 	 }
- 	 #section0 h3{
- 		 width:100%;
- 		 font-size: 12rem;
- 	 }
- 	 #section0 h1{
- 		 width:100%;
- 		 font-size: 25rem;
- 	 }
- 	 .tiny{
- 		 display:none;
- 	 }
- 	 .name {
- 		 margin-top:-153%;
- 	 }
- 	 #section1 section{
- 		 display:block;
- 		 text-align: center;
- 		 margin:5%;
- 		 width:100%;
- 	 }
- 	 .face{
- 		 margin:0 auto;
- 		 text-align: center;
- 		 width:70rem;
- 		 height:70rem;
- 		 border-radius: 50rem;
- 		 margin-left: -7%;
- 	 }
- 	 #section1 h1 , #section p{
- 		 margin:0 auto;
- 		 width:100%;
- 		 text-align: center;
- 	 }
- 	 #section1 h1{
- 		 font-size: 8rem;
- 	 }
+			display: none;
+		}
+		#section0 h3{
+			width:100%;
+			font-size: 8rem;
+		}
+		#section0 h1{
+			width:100%;
+			font-size: 10rem;
+		}
+		.tiny{
+			display:none;
+		}
+		.name {
+			margin-top:-41%;
+		}
 
- 	 .heyP , .heyP2{
- 		 font-size: 4rem;
- 		 margin-left: 0%;
- 		 width:100%;
- 	 }
- 	.heyP{
- 		padding-right:7%;
- 	}
- 	.hey2{
- 		margin-left: 11%;
- 	}
- 	.words , .gitBig{
- 		display:block;
- 		text-align: center;
- 	}
- 	.words{
- 		width:90%;
- 		margin-left: 2%;
- 		margin-top: 0%;
- 	}
- 	.git{
- 		width:9rem;
- 		height:9rem;
- 	}
- 	.words h1{
- 		font-size: 15rem;
- 	}
- 	.words p{
- 		font-size: 6rem;
- 	}
- 	.git{
- 		width:30rem;
- 		height:30rem;
- 		font-size: 3rem;
- 	}
- 	.gitBig{
- 		display: none;
- 	}
- 	.left , .right{
- 		display:block;
- 		text-align: center;
- 		width:100%;
- 	}
- 	.left h1{
- 		font-size: 16rem;
- 	}
- 	.right h2{
- 		font-size: 8rem;
- 	}
- 	.right{
- 		margin-left:5%;
- 	}
- 	.right img{
- 		width:9rem;
- 		height:9rem;
- 		margin-top:-3%;
- 	}
- 	.circleLand{
- 		width:100%;
- 	}
- 	.circle{
- 		margin:5%;
- 	}
- 	.circle:first-child{
- 		margin-left: 10%;
- 	}
+		#section1 section{
+			display:block;
+			text-align: center;
+			margin:5%;
+			width:100%;
+			margin-bottom: 0%;
+			margin-top: -5%;
+		}
+		.face{
+			display: none;
+			// margin:0 auto;
+			// text-align: center;
+			// width:50rem;
+			// height:50rem;
+			// border-radius: 50rem;
+			// margin-left: -7%;
+		}
+	#section1 h1 , #section p{
+	margin:0 auto;
+	width:100%;
+	text-align: center;
+	}
+	#section1 h1{
+	font-size: 6rem;
+	}
+	// .amTwo{
+	// 	margin-bottom: 10%;
+	// }
+	.hey2{
+	padding-left: 4%;
+	}
+	.hey{
+	margin-top: -5%;
+	}
+	.heyP , .heyP2{
+	font-size: 2.6rem;
+	margin-left: 2%;
+	width:97%;
+	}
+	.heyP{
+	padding-right:8%;
+	margin-left: 0%;
+	}
+	//  #section1 p{
+	// 	 margin-bottom: -5%;
+	//  }
+
+	.words , .gitBig{
+	display:block;
+	text-align: center;
+	}
+	.words{
+	width:90%;
+	margin-left: 2%;
+	margin-top: 0%;
+	}
+	.git{
+	width:9rem;
+	height:9rem;
+	font-size: 3rem;
+	}
+	.words h1{
+	font-size: 7rem;
+	}
+	.words p{
+	font-size: 3rem;
+	}
+	.git{
+	width:15rem;
+	height:15rem;
+	}
+	.gitBig{
+	display: none;
+	}
+
+	.left{
+	margin-top: 5%;
+	width:30%;
+	display:inline-block;
+
+	}
+	.right{
+	margin-top: 5%;
+	width:50%;
+	display: inline-block;
+	text-align: center;
+	}
+	.right h2{
+		margin-right: 5%;
+		margin-top: 4%;
+	}
+
+	.right h2:nth-child(3), .right h2:nth-child(4) , .right h2:nth-child(5){
+	display:inline-block;
+	}
+	.right img{
+	width:4.5rem;
+	height:4.5rem;
+	margin-top: -8%;
+	}
+	.circleLand{
+	display: inline-block;
+	width:100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	}
 
 }
 
