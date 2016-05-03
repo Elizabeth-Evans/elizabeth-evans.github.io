@@ -605,26 +605,21 @@ h3 {
     display: none; }
   #section0 h3 {
     width: 100%;
-    font-size: 12rem; }
+    font-size: 8rem; }
   #section0 h1 {
     width: 100%;
-    font-size: 25rem; }
+    font-size: 10rem; }
   .tiny {
     display: none; }
   .name {
-    margin-top: -153%; }
+    margin-top: -41%; }
   #section1 section {
     display: block;
     text-align: center;
     margin: 5%;
     width: 100%; }
   .face {
-    margin: 0 auto;
-    text-align: center;
-    width: 50rem;
-    height: 50rem;
-    border-radius: 50rem;
-    margin-left: -7%; }
+    display: none; }
   #section1 h1, #section p {
     margin: 0 auto;
     width: 100%;
