@@ -89,11 +89,11 @@ h2 {
   margin-top: -30%;
   text-align: center;
   text-shadow: -1px 0 black, 0 6px black, 6px 0 black, 0 -1px black;
-  -webkit-animation: drop 700ms ease-out; }
+  -webkit-animation: drop 1100ms ease-out; }
 
 @-webkit-keyframes drop {
   0% {
-    -webkit-transform: translateY(-500%); }
+    -webkit-transform: scale(0.5) translateY(-500%); }
   100% {
     -webkit-transform: translateY(0%); } }
 
