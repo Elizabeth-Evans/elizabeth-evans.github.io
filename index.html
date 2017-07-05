@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="./css/styles.css" media="screen" title="no title" charset="utf-8">
     <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
@@ -15,7 +16,7 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/fullpage.js/jquery.fullPage.js"></script>
-    <script src="main.js" charset="utf-8"></script>  
+    <script src="main.js" charset="utf-8"></script>
   </head>
   <body>
     <ul id="menu">
@@ -31,49 +32,102 @@
         <h1 class="name">Elizabeth Evans</h1>
         <h3>Front End Web Developer</h3>
     	</div>
-    	<div class="section" id="section1">
-        <section class="am">
-          <img class="face" src="./images/myface.jpg" alt="" />
-        </section>
-        <section class="amTwo">
-          <h1 class="hey">Hey! I'm Elizabeth...</h1>
-          <p class="heyP">I am a designer, an engineer, a coder, a costume maker, a choreographer, a mathemagician, a hiker, and a vintage clothes lover. Being a front end developer allows me to put all the pieces of who I am together to create beautiful and dynamic web applications that make the internet an even more awesome place.</p>
-        </section>
-          <h1 class="hey2">I have skills...</h1>
-          <p class="heyP2">~ HTML5 . CSS . SASS . Javascript . Websockets . UnderscoreJS . NPM . AngularJS . jQuery . Browserify . BackboneJS . Git . AJAX . Bower . Bootstrap . Adobe Photoshop . Command Line ~</p>
+      <div class="section" id="section1">
+        <div class="buffer">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-12 col-md-offset-0 col-xs-6 col-xs-offset-3">
+                            <img class="face" src="./images/myface.jpg" alt="" />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <section>
+                                <h1 class="hey">Hey! I'm Elizabeth...</h1>
+                                <p class="heyP">I am an engineer, a coder, a designer, a costume maker,
+                                    a choreographer, a mathemagician, a hiker, and a vintage clothes lover.
+                                    Being a web developer allows me to put all the pieces of who I am
+                                    together to create beautiful and dynamic web applications that make the
+                                    internet an even more awesome place.</p>
+                            </section>
+                            <h1 class="hey">I have skills...</h1>
+                            <p class="heyP">~ HTML5 . CSS . SASS . Javascript . Websockets . Animations.
+                                UnderscoreJS . AngularJS . jQuery . BackboneJS . Git . AJAX . NPM . Bower .
+                                Bootstrap . Adobe Photoshop . Adobe After Effects . Adobe Illustrator .
+                                Command Line . Grunt . MySQL ~</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
       </div>
     	<div class="section" id="section2">
-        <div class="slide active">
-        <div class="one">
-          <div class="words">
-            <h1>Liar's Dice</h1>
-            <p>A complex multiplayer dice game made with Javascript, JQuery, Underscore, Websockets, and CSS Animations.</p>
-            <p class="tiny">~ enjoyed best on an 11 inch screen ~</p>
-            <a class="git" href="https://github.com/Elizabeth-Evans/LiarsDice" target="_blank">check out<img class="git" src="./images/x1.png" alt="" /> my code </a>
+            <div class="slide active">
+                <div class="one">
+                    <div class="row buffer">
+                        <div class="col-md-6 margin-top-10">
+                            <div class="words">
+                                <h1>Brewfully</h1>
+                                <p>A web tool for breweries built with Yii2, PHP, Javascript, JQuery, SASS, and CSS Animations.</p>
+                                <a class="git" href="https://codepen.io/ickabeth/pen/BZVeOp" target="_blank">check out
+                                  <i class="fa fa-codepen purple" aria-hidden="true"></i>
+                                 my code </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <a class="gitA" href="https://brewfully.com" target="_blank">
+                                <img class="gitBig" src="./images/brewfully.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="two">
+                   <div class="row buffer">
+                       <div class="col-md-6 margin-top-10">
+                           <div class="words">
+                               <h1>Random Ron</h1>
+                               <p>A fun and silly site full of randomly generated inspiration from Ron Swanson created using an API, Angular JS, and CSS. </p>
+                               <a class="git" href="https://github.com/Elizabeth-Evans/angularThing" target="_blank">check out
+                                 <i class="fa fa-github purple" aria-hidden="true"></i>
+                                my code </a>
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                           <a class="gitA" href="http://elizabeth-evans.github.io/angularThing/#/" target="_blank">
+                               <img class="gitBig" src="./images/ron1.5.png" alt="" />
+                           </a>
+                       </div>
+                   </div>
+                </div>
           </div>
-          <a class="gitA" href="http://ec2-52-201-38-61.compute-1.amazonaws.com/" target="_blank"><img class="gitBig" src="./images/ld3.5.png" alt="" /></a>
-        </div>
-      </div>
-        <div class="slide">
-        <div class="two">
-          <div class="words">
-            <h1>Random Ron</h1>
-            <p>A fun and silly site full of randomly generated inspiration from Ron Swanson created using an API, Angular JS, and CSS. </p>
-            <a class="git" href="https://github.com/Elizabeth-Evans/angularThing" target="_blank">check out<img class="git" src="./images/x1.png" alt="" /> my code </a>
+            <div class="slide">
+                <div class="three">
+                  <div class="row buffer">
+                      <div class="col-md-6 margin-top-10">
+                          <div class="words">
+                              <h1>Brewiety</h1>
+                              <p>A site for a mail delivery service built on Yii2, PHP, Javascript, JQuery, SASS</p>
+                              <!-- <a class="git" href="https://github.com/Elizabeth-Evans/etsyAngular/tree/master" target="_blank">check out
+                                <i class="fa fa-github purple" aria-hidden="true"></i>
+                               my code </a> -->
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <a class="gitA" href="https://brewiety.com/" target="_blank">
+                              <img class="gitBig" src="./images/Brewiety2.png" alt="" />
+                          </a>
+                      </div>
+                  </div>
+                </div>
           </div>
-          <a class="gitA" href="http://elizabeth-evans.github.io/angularThing/#/" target="_blank"><img class="gitBig" src="./images/ron1.5.png" alt="" /></a>
-        </div>
-      </div>
-        <div class="slide">
-        <div class="three">
-          <div class="words">
-            <h1>Etsy Angular</h1>
-            <p>A site utilizing the Etsy API, Angular JS, and Angular Bootstrap to organize the day's most popular items.</p>
-            <a class="git" href="https://github.com/Elizabeth-Evans/etsyAngular/tree/master" target="_blank">check out<img class="git" src="./images/x1.png" alt="" /> my code </a>
-          </div>
-          <a class="gitA" href="http://elizabeth-evans.github.io/etsyAngular/#/" target="_blank"><img class="gitBig" src="./images/etsy2.5.png" alt="" /></a>
-        </div>
-      </div>
     	</div>
     	<div class="section" id="section3">
         <div class="left">
@@ -82,9 +136,18 @@
         <div class="right">
           <h2><a class="contact" href="tel:770-841-1652">770-841-1652</a></h2>
           <h2><a class="contact" href="mailto:ickabeth@gmail.com?subject=I%20just%20checked%20out%20your%20portfolio!">ickabeth@gmail.com</a></h2>
-          <h2><a class="contact" href="http://www.linkedin.com/in/eme123" target="_blank">LinkedIn  <img class="purple" src="./images/x2.png" alt="" /></a></h2>
-          <h2><a class="contact" href="http://www.github.com/Elizabeth-Evans" target="_blank">GitHub  <img class="purple" src="./images/x1.png" alt="" /></a></h2>
-          <h2><a class="contact" href="./images/Elizabeth Evans Resume 2016.pdf" download="Elizabeth Evans Resume 2016.pdf" target="_blank">Resume  <img class="purple" src="./images/x3.png" alt="" /></a></h2>
+          <h2><a class="contact" href="http://www.linkedin.com/in/eme123" target="_blank">
+            <i class="fa fa-linkedin purple" aria-hidden="true"></i>
+          </a></h2>
+          <h2><a class="contact" href="http://www.github.com/Elizabeth-Evans" target="_blank">
+            <i class="fa fa-github purple" aria-hidden="true"></i>
+          </a></h2>
+          <h2><a class="contact" href="https://codepen.io/ickabeth/" target="_blank">
+            <i class="fa fa-codepen purple" aria-hidden="true"></i>
+          </a></h2>
+          <h2><a class="contact" href="./images/Elizabeth Evans Resume 2016.pdf" download="Elizabeth Evans Resume 2016.pdf" target="_blank">Resume
+            <i class="fa fa-download purple left-buffer" aria-hidden="true"></i>
+          </a></h2>
         </div>
         <div class="circleLand">
           <div class="circle"></div>

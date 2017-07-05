@@ -1,11 +1,17 @@
 *:focus {
   outline: none !important; }
 
+body a {
+  text-decoration: none !important; }
+
 body {
   font-family: 'Fjalla One', sans-serif;
   color: #333;
   color: rgba(0, 0, 0, 0.8);
   background-color: #f9dc71; }
+
+.buffer {
+  padding: 80px 100px; }
 
 .contact:visited, .git:visited {
   color: black;
@@ -96,7 +102,6 @@ h2 {
     -webkit-transform: translateY(-500%); }
   100% {
     -webkit-transform: translateY(0%); } }
-
 h1 {
   font-size: 11rem;
   position: relative;
@@ -119,28 +124,31 @@ h3 {
     -webkit-transform: translateX(-500%); }
   100% {
     -webkit-transform: translateX(0%); } }
-
 #section1 {
   background-color: #f9dc71;
   display: inline-block; }
 
 .face {
-  position: relative;
-  z-index: 0;
   -webkit-filter: sepia(10%);
   /* Chrome, Safari, Opera */
   filter: sepia(10%);
-  width: 482px;
+  width: 100%;
   border-radius: 366px;
-  margin-top: -35%;
-  margin-left: -20%;
   border: #e17e51 solid 4px; }
 
 #section2 {
   background-color: rgba(210, 126, 81, 0.7); }
+  #section2 .git i {
+    font-size: 2em;
+    margin-left: 10px;
+    margin-right: 10px; }
 
 #section3 {
   background-color: #b7a5ee; }
+  #section3 i {
+    font-size: 1.5em; }
+  #section3 .left-buffer {
+    margin-left: 10px; }
 
 .am, .am2 {
   display: inline-block;
@@ -164,35 +172,20 @@ h3 {
   margin-top: -45%; }
 
 .hey {
-  margin-top: 0%;
   font-family: 'Lobster', cursive;
-  font-size: 9rem;
-  margin-left: 4%;
+  font-size: 7rem;
   text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple; }
 
 .hey2 {
   font-family: 'Lobster', cursive;
-  font-size: 6rem;
-  margin-top: -172px;
-  margin-left: 36%;
-  text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple;
-  position: relative;
-  z-index: 1; }
-
-.hey, .heyP, .heyP2 {
-  position: relative;
-  z-index: 1; }
+  font-size: 4rem;
+  text-shadow: -1px 0 purple, 0 1px purple, 1px 0 purple, 0 -1px purple; }
 
 .heyP {
-  padding-bottom: 0%;
-  margin-bottom: 0%;
-  margin-left: 12%;
-  width: 85%;
-  text-shadow: -.5px 0 grey, 0 0px grey, 0px 0 grey, 0 -.5px grey; }
+  text-shadow: -.5px 0 grey, 0 0px grey, 0px 0 grey, 0 -.5px grey;
+  font-size: 22px; }
 
 .heyP2 {
-  width: 60%;
-  margin-left: 38%;
   text-shadow: -.5px 0 grey, 0 0px grey, 0px 0 grey, 0 -.5px grey;
   font-size: 2.1rem; }
 
@@ -224,29 +217,19 @@ h3 {
   font-size: 7rem;
   font-family: 'Lobster', cursive; }
 
-.words {
-  position: relative;
-  z-index: 1;
-  margin-top: 10%;
-  width: 50%;
-  padding-left: 10%; }
-
 .tiny {
   font-size: 2rem; }
 
 .gitBig {
   width: 450px;
   height: 450px;
-  margin-top: -30%;
   border-radius: 250px;
   -ms-transform: rotate(10deg);
   /* IE 9 */
   -webkit-transform: rotate(10deg);
   /* Safari */
   transform: rotate(10deg);
-  margin-left: 50%;
-  border: 7px double white;
-  margin-right: 5%; }
+  border: 7px double white; }
 
 .left {
   margin-top: 5%;
@@ -299,240 +282,294 @@ h3 {
   color: white;
   box-shadow: none; }
 
+.margin-top-10 {
+  margin-top: 10%; }
+
 @media (min-width: 914px) and (max-width: 1250px) {
   .name {
     margin-top: -50%; }
+
   .face {
-    width: 350px;
-    height: 350px;
-    margin-left: -25%; }
+    width: 100%; }
+
   .hey {
     font-size: 7rem; }
+
   .heyP {
     font-size: 2rem; }
-  .hey2 {
-    margin-top: -9%; }
+
   .gitBig {
     width: 400px;
     height: 400px;
-    margin-top: -40%;
     border-radius: 250px; }
+
   .words h1 {
     font-size: 7rem; }
+
   .circleLand {
     width: 100%; }
+
   .circle {
     width: 7rem;
     height: 7rem; } }
-
 @media (min-width: 667px) and (max-width: 914px) {
   #menu {
     display: none; }
+
   .name {
     margin-top: -60%; }
+
   #section0 h1 {
     font-size: 9rem; }
+
   #section0 h3 {
     font-size: 5rem; }
+
   #section1 section {
     display: block;
     text-align: center;
     margin: 5%;
     width: 100%; }
+
   .face {
     margin: 0 auto;
-    text-align: center;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50rem;
-    margin-left: -7%; }
+    text-align: center; }
+
   #section1 h1, #section p {
     margin: 0 auto;
     width: 100%;
     text-align: center; }
+
   #section1 h1 {
     font-size: 4rem; }
+
   .hey2 {
     padding-left: 4%; }
+
   .heyP, .heyP2 {
     font-size: 1.8rem;
     margin-left: 2%;
     width: 97%; }
+
   .heyP {
     padding-right: 8%;
     margin-left: 0%; }
+
   .tiny {
     display: none; }
+
   .gitBig {
     display: none; }
-  .words {
-    width: 80%;
-    margin-left: 5%; }
+
   .words h1 {
     font-size: 7rem; }
+
   .left, .right {
     width: 90%; }
+
   .circleLand {
     width: 100%; }
+
   .circle {
     width: 5rem;
     height: 5rem; } }
-
 @media (min-width: 10px) and (max-width: 667px) {
   #menu {
     display: none; }
+
+  .buffer {
+    padding: 0px 60px; }
+
   .name {
     margin-top: -80%; }
+
   #section0 h1 {
     font-size: 7rem; }
+
   #section0 h3 {
     font-size: 5rem;
     margin-bottom: 50%; }
+
   #section1 section {
     display: block;
     text-align: center;
     margin: 5%;
     width: 100%; }
+
   .face {
     margin: 0 auto;
-    text-align: center;
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50rem;
-    margin-left: -7%; }
+    text-align: center; }
+
   #section1 h1, #section p {
     margin: 0 auto;
     width: 100%;
     text-align: center; }
+
   #section1 h1 {
     font-size: 4rem; }
+
   .hey2 {
     padding-left: 4%; }
+
   .heyP, .heyP2 {
     margin-left: 2%;
     width: 97%; }
+
   .heyP2 {
     font-size: 1.3rem; }
+
   .heyP {
     font-size: 1.8rem;
     padding-right: 8%;
     margin-left: 0%; }
+
   .tiny {
     display: none; }
+
   .gitBig {
     display: none; }
-  .words {
-    width: 80%;
-    margin-left: 5%; }
+
   .words h1 {
     font-size: 7rem; }
+
   .left, .right {
     width: 100%; }
+
   .left h1 {
     font-size: 7rem; }
+
   .circleLand {
     width: 100%; }
+
   .circle {
     margin: 5%; }
+
   .circle:first-child {
     margin-left: 10%; }
+
   .circle {
     width: 5rem;
     height: 5rem; } }
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #menu {
     display: none; }
+
+  .buffer {
+    padding: 0px 60px; }
+
   #section0 h3 {
     width: 100%;
     font-size: 12rem; }
+
   #section0 h1 {
     width: 100%;
     font-size: 25rem; }
+
   .tiny {
     display: none; }
+
   .name {
     margin-top: -153%; }
+
   #section1 section {
     display: block;
     text-align: center;
     margin: 5%;
     width: 100%; }
+
   .face {
     margin: 0 auto;
-    text-align: center;
-    width: 70rem;
-    height: 70rem;
-    border-radius: 50rem;
-    margin-left: -7%; }
+    text-align: center; }
+
   #section1 h1, #section p {
     margin: 0 auto;
     width: 100%;
     text-align: center; }
+
   #section1 h1 {
     font-size: 8rem; }
+
   .heyP, .heyP2 {
     font-size: 4rem;
     margin-left: 0%;
     width: 100%; }
+
   .heyP {
     padding-right: 7%; }
+
   .hey2 {
     margin-left: 11%; }
+
   .words, .gitBig {
     display: block;
     text-align: center; }
-  .words {
-    width: 90%;
-    margin-left: 2%;
-    margin-top: 0%; }
+
   .git {
     width: 9rem;
     height: 9rem; }
+
   .words h1 {
     font-size: 15rem; }
+
   .words p {
     font-size: 6rem; }
+
   .git {
     width: 30rem;
     height: 30rem;
     font-size: 3rem; }
+
   .gitBig {
     display: none; }
+
   .left, .right {
     display: block;
     text-align: center;
     width: 100%; }
+
   .left h1 {
     font-size: 16rem; }
+
   .right h2 {
     font-size: 8rem; }
+
   .right {
     margin-left: 5%; }
+
   .right img {
     width: 9rem;
     height: 9rem;
     margin-top: -3%; }
+
   .circleLand {
     width: 100%; }
+
   .circle {
     margin: 5%; }
+
   .circle:first-child {
     margin-left: 10%; } }
-
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   #menu {
     display: none; }
+
+  .buffer {
+    padding: 0px 60px; }
+
   #section0 h3 {
     width: 100%;
     font-size: 8rem; }
+
   #section0 h1 {
     width: 100%;
     font-size: 10rem; }
+
   .tiny {
     display: none; }
+
   .name {
     margin-top: -41%; }
+
   #section1 section {
     display: block;
     text-align: center;
@@ -540,163 +577,204 @@ h3 {
     width: 100%;
     margin-bottom: 0%;
     margin-top: -4%; }
+
   .face {
     display: none; }
+
   #section1 h1, #section p {
     margin: 0 auto;
     width: 100%;
     text-align: center; }
+
   #section1 h1 {
     font-size: 6rem; }
+
   .hey2 {
     padding-left: 4%; }
+
   .hey {
     margin-top: -5%; }
+
   .heyP, .heyP2 {
     font-size: 2.6rem;
     margin-left: 2%;
     width: 97%; }
+
   .heyP {
     padding-right: 8%;
     margin-left: 0%; }
+
   .words, .gitBig {
     display: block;
     text-align: center; }
-  .words {
-    width: 90%;
-    margin-left: 2%;
-    margin-top: 0%; }
+
   .git {
     width: 9rem;
     height: 9rem;
     font-size: 3rem; }
+
   .words h1 {
     font-size: 7rem; }
+
   .words p {
     font-size: 3rem; }
+
   .git {
     width: 15rem;
     height: 15rem; }
+
   .gitBig {
     display: none; }
+
   .left {
     margin-top: 5%;
     width: 30%;
     display: inline-block; }
+
   .right {
     margin-top: 5%;
     width: 50%;
     display: inline-block;
     text-align: center; }
+
   .right h2 {
     margin-right: 5%;
     margin-top: 4%; }
+
   .right h2:nth-child(3), .right h2:nth-child(4), .right h2:nth-child(5) {
     display: inline-block; }
+
   .right img {
     width: 4.5rem;
     height: 4.5rem;
     margin-top: -8%; }
+
   .circleLand {
     display: inline-block;
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%; } }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 526px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   #menu {
     display: none; }
+
+  .buffer {
+    padding: 0px 60px; }
+
   #section0 h3 {
     width: 100%;
     font-size: 12rem; }
+
   #section0 h1 {
     width: 100%;
     font-size: 25rem; }
+
   .tiny {
     display: none; }
+
   .name {
     margin-top: -153%; }
+
   #section1 section {
     display: block;
     text-align: center;
     margin: 5%;
     width: 100%; }
+
   .face {
     margin: 0 auto;
-    text-align: center;
-    width: 50rem;
-    height: 50rem;
-    border-radius: 50rem;
-    margin-left: -7%; }
+    text-align: center; }
+
   #section1 h1, #section p {
     margin: 0 auto;
     width: 100%;
     text-align: center; }
+
   #section1 h1 {
     font-size: 8rem; }
+
   .hey2 {
     padding-left: 4%; }
+
   .heyP, .heyP2 {
     font-size: 4rem;
     margin-left: 2%;
     width: 97%; }
+
   .heyP {
     padding-right: 8%;
     margin-left: 0%; }
+
   .words, .gitBig {
     display: block;
     text-align: center; }
-  .words {
-    width: 90%;
-    margin-left: 2%;
-    margin-top: 0%; }
+
   .git {
     width: 9rem;
     height: 9rem;
     font-size: 3rem; }
+
   .words h1 {
     font-size: 15rem; }
+
   .words p {
     font-size: 6rem; }
+
   .git {
     width: 30rem;
     height: 30rem; }
+
   .gitBig {
     display: none; }
+
   .left, .right {
     display: block;
     text-align: center;
     width: 100%; }
+
   .left h1 {
     font-size: 16rem; }
+
   .right {
     margin-left: 5%; }
+
   .right h2 {
     font-size: 8rem; }
+
   .right img {
     width: 9rem;
     height: 9rem;
     margin-top: -3%; }
+
   .circleLand {
     width: 100%; }
+
   .circle {
     margin: 5%; }
+
   .circle:first-child {
     margin-left: 10%; } }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   #menu {
     display: none; }
+
+  .buffer {
+    padding: 0px 60px; }
+
   #section0 h3 {
     width: 100%;
     font-size: 8rem; }
+
   #section0 h1 {
     width: 100%;
     font-size: 10rem; }
+
   .tiny {
     display: none; }
+
   .name {
     margin-top: -41%; }
+
   #section1 section {
     display: block;
     text-align: center;
@@ -704,65 +782,82 @@ h3 {
     width: 100%;
     margin-bottom: 0%;
     margin-top: -4%; }
+
   .face {
     display: none; }
+
   #section1 h1, #section p {
     margin: 0 auto;
     width: 100%;
     text-align: center; }
+
   #section1 h1 {
     font-size: 6rem; }
+
   .hey2 {
     padding-left: 4%; }
+
   .hey {
     margin-top: -5%; }
+
   .heyP, .heyP2 {
     font-size: 2.6rem;
     margin-left: 2%;
     width: 97%; }
+
   .heyP {
     padding-right: 8%;
     margin-left: 0%; }
+
   .words, .gitBig {
     display: block;
     text-align: center; }
-  .words {
-    width: 90%;
-    margin-left: 2%;
-    margin-top: 0%; }
+
   .git {
     width: 9rem;
     height: 9rem;
     font-size: 3rem; }
+
   .words h1 {
     font-size: 7rem; }
+
   .words p {
     font-size: 3rem; }
+
   .git {
     width: 15rem;
     height: 15rem; }
+
   .gitBig {
     display: none; }
+
   .left {
     margin-top: 5%;
     width: 30%;
     display: inline-block; }
+
   .right {
     margin-top: 5%;
     width: 50%;
     display: inline-block;
     text-align: center; }
+
   .right h2 {
     margin-right: 5%;
     margin-top: 4%; }
+
   .right h2:nth-child(3), .right h2:nth-child(4), .right h2:nth-child(5) {
     display: inline-block; }
+
   .right img {
     width: 4.5rem;
     height: 4.5rem;
     margin-top: -8%; }
+
   .circleLand {
     display: inline-block;
     width: 100%;
     margin-top: 5%;
     margin-bottom: 5%; } }
+
+/*# sourceMappingURL=styles.css.map */
