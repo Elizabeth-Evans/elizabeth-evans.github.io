@@ -374,7 +374,8 @@ h3 {
     width: 5rem;
     height: 5rem; } }
 @media (min-width: 10px) and (max-width: 667px) {
-  #menu {
+  #menu,
+  .face {
     display: none; }
 
   .buffer {
