@@ -332,8 +332,7 @@ h3 {
     width: 100%; }
 
   .face {
-    margin: 0 auto;
-    text-align: center; }
+    display: none; }
 
   #section1 h1, #section p {
     margin: 0 auto;
